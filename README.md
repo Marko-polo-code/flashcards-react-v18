@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Quiz App repository! This application allows users to create quizzes with multiple cards, each containing a question and an answer. Users can flip the cards to reveal the answers and navigate between different quizzes.
 
-## Available Scripts
+![Quiz App Screenshot](./public/Screenshot%202024-05-14%20at%2010.42.09.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This Quiz App is built using React and Redux, with React Router for navigation. It demonstrates the use of Redux Toolkit for state management and includes features such as creating quizzes, adding cards to quizzes, and viewing quizzes with the ability to flip cards to see answers.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username/quiz-app.git
 
-### `npm run eject`
+2. npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open your browser and navigate to http://localhost:3000.
+2. Create a new quiz by clicking on "Create a new quiz".
+3. Add cards to the quiz by filling in the question and answer fields.
+4. Submit the quiz to save it.
+5. View the list of quizzes and navigate to any quiz to see the cards.
+6. Click on the cards to flip them and see the answers.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- Redux
